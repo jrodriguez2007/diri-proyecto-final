@@ -1,0 +1,23 @@
+.selector {
+  /* Hacemos inline-flex y centramos todo */
+  display: inline-flex;
+  align-items: center;
+
+  /* Conservamos padding parecido al default de AntD */
+  padding: 0 11px;
+}
+
+.selectionItem {
+  /* El elemento que muestra el valor seleccionado */
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
+}
+
+.flag {
+  /* Ajuste fino de la bandera */
+  margin-right: 6px;
+  width: 20px;
+  height: 15px;
+  flex-shrink: 0;
+}

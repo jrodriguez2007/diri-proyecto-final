@@ -1,0 +1,40 @@
+@layer theme, base, antd, components, utilities;
+
+@import 'tailwindcss';
+
+@theme {
+  /* Paleta Bootstrap adaptada */
+  --color-primary:    #2c3e50;
+  --color-secondary:  #1d6042;
+  --color-success:    #198754;
+  --color-info:       #0dcaf0;
+  --color-warning:    #ffc107;
+  --color-danger:     #dc3545;
+  --color-light:      #f8f9fa;
+  --color-dark:       #343a40;
+
+  /* Opcionales: variantes hover/active (puedes ajustarlas) */
+  --color-primary-hover:   #243243;
+  --color-primary-active:  #1e2b39;
+
+  --color-secondary-hover: #175236;
+  --color-secondary-active:#144b31;
+
+  --color-success-hover:   #157445;
+  --color-success-active:  #126139;
+
+  --color-info-hover:      #0bbde9;
+  --color-info-active:     #0aaacf;
+
+  --color-warning-hover:   #e6b906;
+  --color-warning-active:  #cca005;
+
+  --color-danger-hover:    #c12b3f;
+  --color-danger-active:   #a02636;
+
+  --color-light-hover:     #ffffff;
+  --color-light-active:    #e6e7e8;
+
+  --color-dark-hover:      #2b333c;
+  --color-dark-active:     #242b33;
+}

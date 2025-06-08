@@ -1,0 +1,116 @@
+
+@use "bootstrap/scss/bootstrap" with (
+  $theme-colors: (
+    "primary":    #2c3e50,
+    "secondary":  #1d6042,
+    "success":    #198754,
+    "info":       #0dcaf0,
+    "warning":    #ffc107,
+    "danger":     #dc3545,
+    "light":      #f8f9fa,
+    "dark":       #343a40,
+  )
+);
+
+.pointer {
+  cursor: pointer;
+}
+
+.model-container {
+  margin: 0 auto;      // Centra horizontalmente el contenedor
+  max-width: 1200px;    // Ancho máximo (ajusta según tus necesidades)
+  padding: 1rem;        // Espaciado interno
+}
+
+/* Título */
+h1 {
+  font-size: 1.5rem; // Ajusta el tamaño según necesites
+}
+
+/* Botones */
+.btn {
+  font-size: 0.85rem; // Reducir el tamaño de fuente en botones
+}
+
+/* Cabecera de la tabla */
+.table thead th {
+  font-size: 0.85rem;
+}
+
+/* Cuerpo de la tabla */
+.table tbody td {
+  font-size: 0.8rem;
+}
+
+/* Ejemplo básico de estilos para la modal */
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-dialog {
+  background-color: white;
+  border-radius: 4px;
+  overflow: hidden;
+  width: 90%;
+  max-width: 500px;
+}
+.modal-header, .modal-body {
+  padding: 1rem;
+}
+.btn-close {
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.table-fixed{
+  table-layout: fixed;
+  width: 100%;
+  tbody tr {
+    text-transform: uppercase;
+  }
+
+}
+
+/* Formulario */
+.modal-dialog {
+  .modal-content {
+    .modal-header {
+      display: block !important;
+      text-align: center;
+      padding-bottom: 0 !important;
+
+      .modal-title {
+        border-bottom: 1px solid #198754;
+        padding-bottom: 10px;
+      }
+}}}
+
+.form-model-container {
+  font-size: 0.85rem; 
+  
+  .form-control {
+    font-size: 0.85rem;
+  }
+
+  .form-title {
+    font-weight: bold;
+  }
+  
+  .text-danger {
+    font-size: 0.75rem;
+  }
+
+  .div-buttons {
+    padding-top: 10px;
+    /*border-top: 1px solid #198754;*/
+  }
+}

@@ -1,0 +1,39 @@
+// Footer.scss
+.app-footer {
+  background-color: #2c3e50;   // tu “primary” personalizado
+  padding: 1rem 0;
+  text-align: center;
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;  
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  &__nav {
+    display: flex;
+    gap: 1rem;
+
+    a {
+      color: #f8f9fa;
+      text-decoration: none;
+      font-size: 0.85rem;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .ant-typography {
+    color: #f8f9fa;
+    font-size: 0.85rem;
+    margin: 0;
+  }
+}
