@@ -6,6 +6,12 @@
     "allowJs": false,
     "noEmitOnError": true
   },
-  "include": ["src/**/*", "tests/**/*"],
-  "exclude": ["node_modules", "assets", "dist"]
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "assets",
+    "dist"
+  ]
 }

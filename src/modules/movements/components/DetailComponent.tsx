@@ -10,7 +10,7 @@ interface DetailComponentProps {
   onRemove?: (lineaId: number) => void;
 }
 
-export const DetailComponent: React.FC<DetailComponentProps> = ({ id, detalle, onRemove }) => {
+export const DetailComponent: React.FC<DetailComponentProps> = ({ detalle, onRemove }) => {
   const { t } = useTransform();
 
   // Columnas base

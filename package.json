@@ -8,7 +8,9 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "test": "vitest"
+    "test": "vitest",
+    "build:prod": "tsc -p tsconfig.build.json && vite build --mode production",
+    "clean:js": "rimraf src/**/*.js src/**/*.js.map"
   },
   "dependencies": {
     "@ant-design/v5-patch-for-react-19": "1.0.3",
