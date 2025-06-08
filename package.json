@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "test": "vitest",
     "build:prod": "tsc -p tsconfig.build.json && vite build --mode production",
-    "clean:js": "rimraf src/**/*.js src/**/*.js.map"
+    "clean:js": "rimraf src/**/*.js src/**/*.js.map",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@ant-design/v5-patch-for-react-19": "1.0.3",
