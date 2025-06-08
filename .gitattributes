@@ -1,0 +1,2 @@
+# Para que Git no haga autocrlf en node_modules/
+node_modules/** text eol=lf

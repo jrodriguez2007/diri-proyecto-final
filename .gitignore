@@ -22,3 +22,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+tsconfig.tsbuildinfo
+vite.svg
+
+# Otras exclusiones comunes
+/dist
+/node_modules
